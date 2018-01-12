@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CONSUM : Conservation of Museum</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/images/Logo.png" rel="icon" type="image/png" />
+
+    <!-- Bootstrap CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/consum.css">
+    <link type="text/css" rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+  </head>
+  <body>
+    <div id="header">
+        <nav class="navbar navbar-expand-sm">
+            <div class="row justify-content-between">
+                <!--Navbar Brand-->
+                <div class="col-xl-4 col-lg-4 col-md-3 d-none d-md-block pl-5">
+  					<a class="navbar-brand" href="index.html"><img src="assets/images/Logo.png" class="img-fluid" height="30%" width="30%"></a>  			
+    			</div>
+                <div class="d-block d-sm-none">
+                    <div class="row justified-content-center">
+                        <div class="col"><a class="navbar-brand text-light" href="https://google.co.id">CONSUM.com</a></div>
+                        <!--Toggler / Collapsible Button-->
+                        <div class="col">
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#homeNavbar" aria-controls="homeNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        </div>
+                    </div>
+                </div>
+                <!--Navbar Menu/Links-->
+    			<div class="col-xl-7 col-lg-7 col-md-7 collapse navbar-collapse mt-5 pr-0" id="homeNavbar">
+                    <div class="container-fluid pr-0 mt-4">
+    						<ul class="nav nav-tabs nav-justified" role="tablist">
+      							<li class="nav-item nav-link text-center active">
+        							<a class="text-light" href="index.html">Beranda<span class="sr-only">(current)</span></a>
+      							</li><!--
+      							<li class="nav-item nav-link text-center dropdown">
+        							<a class="text-light dropdown-toggle" href="#" id="navbarDropdownMuseum" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Museum </a>
+        							<div class="dropdown-menu" aria-labelledby="navbarDropdownMuseum">
+        		  						<a class="dropdown-item" href="#">Sejarah</a>
+        		  						<a class="dropdown-item" href="#">Seni</a>
+                                        <a class="dropdown-item" href="#">Budaya</a>
+        		  						<a class="dropdown-item" href="#">Militer</a>
+        		  						<a class="dropdown-item" href="#">Daerah</a>
+        		  						<a class="dropdown-item" href="#">Lainnya</a>
+        							</div>
+      							</li>-->
+      							<li class="nav-item nav-link text-center">
+        							<a class="text-light" href="event.html">Event</a>
+      							</li>
+      							<li class="nav-item nav-link text-center dropdown">
+        							<a class="text-light dropdown-toggle" href="#" id="navbarDropdownBantuan" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bantuan</a>
+        							<div class="dropdown-menu" aria-labelledby="navbarDropdownBantuan">
+        		  						<a class="dropdown-item" href="cekpesanan.html">Cek Pesanan</a>
+        		  						<a class="dropdown-item" href="kirimtanggapan.html">Kirim Tanggapan</a>
+        		 						<a class="dropdown-item" href="FAQ.html">FAQ</a>
+        							</div>
+      							</li>
+      							<li class="nav-item nav-link">
+        							<a class="text-light text-center" href="tentangkami.html">Tentang Kami</a>
+      							</li>
+      							<li class="nav-item nav-link text-center dropdown">
+        							<a class="text-light dropdown-toggle" href="#" id="navbarDropdownMasuk" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Masuk</a>
+        							<div class="dropdown-menu" aria-labelledby="navbarDropdownMasuk">
+        		  						<a class="dropdown-item" href="#masukModal" data-toggle="modal" data-target="#masukModal">Masuk</a>
+        		  						<a class="dropdown-item" href="register.html">Daftar</a>
+        							</div>
+      							</li>
+    						</ul>
+                        </div>
+    			</div>
+            </div>
+        </nav>
+   		</div>
+        <!--Carousel -->
+        <div class="carousel slide" id="homeSlider" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#homeSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#homeSlider" data-slide-to="1"></li>
+                <li data-target="#homeSlider" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="event.html"><img src="assets/images/banner1.png" class="img-fluid"/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="event.html"><img src="assets/images/banner2.png" class="img-fluid"/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="event.html"><img src="assets/images/banner3.png" class="img-fluid"/></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#homeSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+  		    </a>
+  		    <a class="carousel-control-next" href="#homeSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+  		    </a>
+        </div>
+        <!--Batas Carousel-->
+        
+        <!--Nav link Paket-->
+        <div id="menu-paket">
+            <ul class="nav nav-tabs nav-justified bg-consum" role="tablist">
+                <li class="nav-item nav-link text-center active"><a data-toggle="tab" href="#menu-paket-paket" class="text-light">PAKET</a></li>
+                <li class="nav-item nav-link text-center"><a data-toggle="tab" href="#menu-museum" class="text-light">MUSEUM</a></li>
+                <li class="nav-item nav-link text-center"><a data-toggle="tab" href="#menu-akomodasi" class="text-light">AKOMODASI</a></li>
+                <li class="nav-item nav-link text-center"><a data-toggle="tab" href="#menu-tourguide" class="text-light">TOUR GUIDE</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="menu-paket-paket" class="tab-pane fade in show active">
+                    <ul class="nav navtabs nav-justified" role="tablist">
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/paket-sekolah.png">
+                                <div class="card-img-overlay">
+                                    <button style="border: none;background: transparent;"><b>PAKET SEKOLAH</b></button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/paket-keluarga.png">
+                                <div class="card-img-overlay">
+                                    <button style="border: none;background: transparent;"><b>PAKET KELUARGA</b></button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/paket-komunitas.png">
+                                <div class="card-img-overlay">
+                                    <button style="border: none;background: transparent;"><b>PAKET KOMUNITAS</b></button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/paket-pasangan.png">
+                                <div class="card-img-overlay">
+                                    <button style="border: none;background: transparent;"><b>PAKET PASANGAN</b></button>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="menu-museum" class="tab-pane fade">
+                    <ul class="nav navtabs nav-justified" role="tablist">
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/museum-sejarah.png">
+                                <div class="card-img-overlay">
+                                    <button class="btn btn-primary" style="border: none;background: transparent;"><b>MUSEUM SEJARAH</b></button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/museum-seni.png">
+                                <div class="card-img-overlay">
+                                    <button class="btn btn-primary" style="border: none;background: transparent;"><b>MUSEUM MUSEUM SENI</b></button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/museum-militer.png">
+                                <div class="card-img-overlay">
+                                    <button class="btn btn-primary" style="border: none;background: transparent;"><b>MUSEUM MILITER</b></button>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navtabs nav-justified" role="tablist">
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/museum-daerah.png">
+                                <div class="card-img-overlay">
+                                    <button class="btn" style="border: none;background: transparent;"><b>MUSEUM DAERAH</b></button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/museum-budaya.png">
+                                <div class="card-img-overlay">
+                                    <button class="btn" style="border: none;background: transparent;"><b>MUSEUM BUDAYA</b></button>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-link nopadding card">
+                            <a data-toggle="tab" href="Modal-Paket-Sekolah"><img class="img-fluid" src="assets/images/museum-lainnya.png">
+                                <div class="card-img-overlay">
+                                    <button class="btn" style="border: none;background: transparent;"><b>MUSEUM LAINNYA</b></button>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="menu-akomodasi" class="tab-pane fade">
+                    <div class="container py-5 font-consum-light">
+                        <form action="book.html" method="post" id="cari-tourguide" class="py-4 px-5" style="background: rgba(0,0,0,0.4)">
+                            <div class="container px-5">
+                                <div class="row pb-3">
+                                    <div class="col">
+                                        <div class="row pb-2">
+                                            
+                                            <label for="tujuan-museum">Tujuan</label>
+                                            <input id="tujuan-museum" type="text" class="form-control" placeholder="Ex : Museum Indonesia" style="background: rgba(0,0,0,0.4);color: white" required>
+                                        </div>
+                                        <div class="row pb-2">
+                                            <label for="kendaraan">Jenis Kendaraan</label>
+                                            <select id="kendaraan" class="form-control" placeholder="Ex : Museum Indonesia" style="background: rgba(0,0,0,0.4);color: white" required>
+                                                <option>Mobil Pribadi (&le; 6 orang)</option>
+                                                <option>Bus Sedang (&le; 12 orang)</option>
+                                                <option>Bus Besar (&le; 60 orang)</option>
+                                            </select>
+                                        </div>
+                                        <div class="row pb-2">
+                                            <label for="tgl-perjalanan">Tanggal Perjalanan</label>
+                                            <input id="tgl-perjalanan" type="date" class="form-control" style="background: rgba(0,0,0,0.4);color: white" required>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <label for="catatan">Catatan</label>
+                                        <textarea id="catatan" rows="9" class="form-control" style="background: rgba(0,0,0,0.4);color: white" placeholder="Tuliskan detailnya disini..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-3 align-self-end">
+                                        <button type="submit" class="btn btn-warning form-control">Pesan</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="menu-tourguide" class="tab-pane fade">
+                    <div class="container py-5 font-consum-light">
+                        <form id="cari-tourguide" class="py-4 px-5" style="background: rgba(0,0,0,0.4)" action="book.html">
+                            <div class="container px-5">
+                            <div class="row pb-3">
+                                <div class="col">
+                                    <label for="tujuan-museum">Tujuan</label>
+                                    <input id="tujuan-museum" type="text" class="form-control" placeholder="Ex : Museum Indonesia" style="background: rgba(0,0,0,0.4);color: white">
+                                </div>
+                                <div class="col">
+                                    <label for="gender">Jenis Kelamin</label>
+                                    <select id="gender" class="form-control" placeholder="Ex : Museum Indonesia" style="background: rgba(0,0,0,0.4);color: white">
+                                        <option>Laki-laki</option>
+                                        <option>Perempuan</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col">
+                                    <label for="tgl-perjalanan">Tanggal Perjalanan</label>
+                                    <input id="tgl-perjalanan" type="date" class="form-control" style="background: rgba(0,0,0,0.4);color: white"/>
+                                </div>
+                                <div class="col">
+                                    <label for="catatan">Catatan</label>
+                                    <textarea id="catatan" rows="3" class="form-control" style="background: rgba(0,0,0,0.4);color: white" placeholder="Tuliskan detailnya disini..."></textarea>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-3 align-self-end">
+                                    <button type="submit" class="btn btn-warning form-control">Pesan</button>
+                                </div>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Temukan Perjalanan mu disini-->
+            <div id="cari-perjalanan">
+                <form>
+                    <div class="pt-4 row justify-content-center">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-8">
+                            <input type="text" class="form-control" placeholder="Temukan perjalanan disini">
+                        </div>
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+                            <button class="btn btn-warning px-4" type="submit">Cari</button>
+                        </div>
+                    </div>
+                    <div class="pt-1 row pb-5">
+                        <div class="col">
+                            <p class="text-center text-light">Temukan Perjalanan Anda Dengan Mudah! Masukkan nama Kota atau nama Museum yang ingin Anda kunjungi!</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        <!--Batas Nav link Paket-->
+      <div class="container-fluid bg-consum-light">
+        <div class="pt-2 container row">
+            <div class="col-xs-12">
+                <h1 style="color: #434242;">Penawaran Istimewa <a href="index.html" class="text-dark">CONSUM.com</a></h1>
+                <p style="color: #434242;">Penawaran Liburan Terbaik dari <a href="index.html" class="text-dark">CONSUM.com</a></p>
+            </div>
+        </div>   
+        <div class="row px-5 pb-5" id="homeCard">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <a href="museum-nasional.html">
+                    <img class="card-img-top img-fluid" src="assets/images/museum-nasional.png" alt="Museum Nasional"></a>
+                    <div class="card-block bg-light">
+                        <h6 class="card-title bg-consum mb-1 pt-1 pb-4 font-consum-light"><div class="container">Museum Nasional</div></h6>
+                        <div class="container"><hr class="my-0">
+                            <p class="card-text mb-0"><small class="text-muted">Mulai dari</small></p>
+                            <h4 class="card-text mb-0">Rp. 90.<small>000,-/<small>paket *</small></small></h4>
+                            <a href="museum-nasional.html" class="btn btn-warning px-2 py-1 float-right mb-3">Lihat...</a>
+                            <h6 class="card-text mt-2 text-muted">*<small><small>Syarat dan Ketentuan berlaku</small></small></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="assets/images/museum-indonesia.png" alt="Museum Indonesia">
+                    <div class="card-block bg-light">
+                        <h6 class="card-title bg-consum mb-1 pt-1 pb-4 font-consum-light"><div class="container">Museum Indonesia</div></h6>
+                        <div class="container"><hr class="my-0">
+                            <p class="card-text mb-0"><small class="text-muted">Mulai dari</small></p>
+                            <h4 class="card-text mb-0">Rp. 75.<small>000,-/<small>paket *</small></small></h4>
+                            <a href="#" class="btn btn-warning px-2 py-1 float-right mb-3">Lihat...</a>
+                            <h6 class="card-text mt-2 text-muted">*<small><small>Syarat dan Ketentuan berlaku</small></small></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="assets/images/Museum-fatahillah.jpg" alt="Museum Indonesia">
+                    <div class="card-block bg-light">
+                        <h6 class="card-title bg-consum mb-1 pt-1 pb-4 font-consum-light"><div class="container">Museum Fatahillah</div></h6>
+                        <div class="container"><hr class="my-0">
+                            <p class="card-text mb-0"><small class="text-muted">Mulai dari</small></p>
+                            <h4 class="card-text mb-0">Rp. 125.<small>000,-/<small>paket *</small></small></h4>
+                            <a href="#" class="btn btn-warning px-2 py-1 float-right mb-3">Lihat...</a>
+                            <h6 class="card-text mt-2 text-muted">*<small><small>Syarat dan Ketentuan berlaku</small></small></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="assets/images/museum-kebangkitan-nasional.jpg" alt="Museum Indonesia">
+                    <div class="card-block bg-light">
+                        <h6 class="card-title bg-consum mb-1 pt-1 pb-4 font-consum-light"><div class="container">Museum Kebangkitan Nasional</div></h6>
+                        <div class="container"><hr class="my-0">
+                            <p class="card-text mb-0"><small class="text-muted">Mulai dari</small></p>
+                            <h4 class="card-text mb-0">Rp. 50.<small>000,-/<small>paket *</small></small></h4>
+                            <a href="#" class="btn btn-warning px-2 py-1 float-right mb-3">Lihat...</a>
+                            <h6 class="card-text mt-2 text-muted">*<small><small>Syarat dan Ketentuan berlaku</small></small></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+   		<footer id="footer" class="footer container-fluid">
+        <div class="logo col-xs-12 text-center">
+          <a href="index.html"><img src="assets/images/Logo.png" alt="Logo-Footer" /></a>
+        </div>
+        <div class="row mw-1100 auto-side-margin">
+          <div class="col-xs-12 col-sm-5 col-md-4 col-sm-offset-1 col-md-offset-2">
+            <!--Sosial Media-->
+            <div class="row">
+              <div class="col-xs-12 socmed-box text-center">
+                <h3 class="font-consum-light">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ikuti Kami</h3>
+                <ul id="socmed">
+                  <li>
+                    <a href="#" target="_blank"><img src="assets/images/socmed-gplus.png"></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><img src="assets/images/socmed-fbook.png"></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><img src="assets/images/socmed-insta.png"></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"><img src="assets/images/socmed-twit.png"></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 quick-links">
+                <ul>
+                  <li><a href="tentangkami.html">Tentang Kami</a></li>
+                  <li><a href="syarat.html">Syarat & Ketentuan</a></li>
+                </ul>
+                <ul>
+                  <li><a href="kebijakan.html">Kebijakan & Privasi</a></li>
+                  <li><a href="kirimtanggapan.html">Kirim Tanggapan</a></li>
+                  <li><a href="FAQ.html">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 mt-20">
+            <div class="row font-consum-light">
+              <address class="location col-xs-12 col-sm-7">
+                <strong><a href="index.html">CONSUM.com</a></strong><br>
+                Jl. Rawamangun Muka, RT.11/RW.14,<br>
+                Jakarta Timur - Indonesia 13220<br>
+                <i class="fa fa-phone pr-2"></i>(021) 5667 7889<br>
+                <i class="fa fa-phone pr-2"></i>(021) 1234 5678<br>
+                <i class="fa fa-whatsapp pr-2" aria-hidden="true"></i>+62 82386368847<br>
+                <i class="fa fa-whatsapp pr-2" aria-hidden="true"></i>+62 83877648728<br>
+              </address>
+              <div class="location col-sm-5">
+                <iframe class="float-right d-none d-xl-block" width="265px" height="180px" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ43m5bO30aS4REP9Mqynb6A4&key=AIzaSyAcpFLpsZeP5r2fGnGDIpZpYbvzBtBJUGo"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      <p class="font-consum font-consum-light mb-0" align="center">Copyright &copy; 2017 CONSUM.com. Hak Cipta dilindungi Undang-undang </p>
+      </footer>
+    
+    <!-- Button trigger modal -->
+<!-- Modal -->
+        <div class="modal fade" id="masukModal" tabindex="-1" role="dialog" aria-labelledby="masukModallLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="masukModalLabel">Masuk</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form id="masukForm">
+                    <div class="form-group">
+                        <div class="input-group mb-2">
+                            <span class="input-group-addon"><i class="fa fa-user-circle fa-fw" aria-hidden="true"></i></span>
+                        <input class="form-control form-control-sm" type="text" placeholder="Nama Pengguna" aria-required="true">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
+                            <input class="form-control" type="password" placeholder="Kata Sandi">
+                        </div>
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" type="submit">Masuk</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+      $(".nav li").on("click", function(){
+        $(".nav li").removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
+  </body>
+</html>
